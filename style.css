@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Newsreader', serif;
+}
+body{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+   
+}
