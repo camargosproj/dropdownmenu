@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Newsreader', serif;
+    list-style: none;
 }
 body{
     background-image: url(img/bg.jpg);
@@ -11,6 +12,51 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+
+}
+.menu-bar{
+    background: rgb(185, 189, 185,.8);
+    text-align: center;
+}
+
+.menu-bar ul{
+    display: inline-flex;
     
-   
+}
+.menu-bar ul li{
+   width: 120px;
+   margin: 15px;
+   padding: 15px;
+}
+
+.menu-bar ul li a{
+  text-decoration: none;
+  color: #fff;
+
+ }
+
+ .active, .menu-bar ul li:hover{
+     background: #656865;
+     border-radius: 3px;
+     cursor: pointer;
+
+ }
+
+ .sub-menu{
+     display: none;
+ }
+
+ .menu-bar ul li:hover .sub-menu{
+     display: block;
+     position: absolute;
+     background: #5fa05f;
+     margin-top: 15px;
+     margin-left: -15px;
+ }
+
+
+ .menu-bar ul li:hover .sub-menu ul{
+    display: block;
+    margin-left: 10px
+
 }
