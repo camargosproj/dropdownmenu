@@ -49,7 +49,7 @@ body{
  .menu-bar ul li:hover .sub-menu{
      display: block;
      position: absolute;
-     background: #5fa05f;
+     background: rgb(185, 189, 185,.8);
      margin-top: 15px;
      margin-left: -15px;
  }
@@ -59,4 +59,21 @@ body{
     display: block;
     margin-left: 10px
 
+}
+
+.menu-bar ul li:hover .sub-menu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu ul li:last-child{
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu ul li a:hover{
+    color: #343531;
 }
