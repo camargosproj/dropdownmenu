@@ -77,3 +77,14 @@ body{
 .menu-bar ul li:hover .sub-menu ul li a:hover{
     color: #343531;
 }
+
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 150px; 
+    background:  rgb(185, 189, 185,.8);
+}
